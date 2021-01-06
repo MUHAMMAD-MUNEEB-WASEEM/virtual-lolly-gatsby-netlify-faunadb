@@ -8,6 +8,7 @@ import { useMutation } from "@apollo/client"
 import gql from "graphql-tag"
 import Result from "../components/Final"
 import axios from "axios";
+import Footer from "../components/Footer"
 
 const ADD_LOLLY = gql`
     mutation addLolly($color1: String!, 
@@ -158,6 +159,7 @@ const Create = () => {
                         <button type="submit">Freeze this lolly and get a link</button>
                     </form></> : <Result link={data?.addLolly?.link} reciever={data?.addLolly?.reciever} sender={data?.addLolly?.sender} message={data?.addLolly?.message} />}
             </div>
+            <Footer />
         </div >
     )
 }

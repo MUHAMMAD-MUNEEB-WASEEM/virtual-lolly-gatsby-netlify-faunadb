@@ -8,7 +8,7 @@
   font-weight: 300;
   color: #fff;
   border-bottom-style: none;
-  text-shadow: #fa73d9 0 0 8px;
+  text-shadow: 0 0 25px #fa73d9, 0 0 10px #eeee;
   font-size: 4.5em;
   font-family: Yellowtail, cursive;
   line-height: 1;
